@@ -1,1 +1,1 @@
-# PresencePulse : Face Detection Based Automated Attendance System
+# PresencePulse : Face Recognition Based Automated Attendance System
