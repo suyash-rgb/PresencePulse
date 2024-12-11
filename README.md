@@ -13,6 +13,12 @@ Structure of the PresencePulse GUI Application: <br> <br>
 
 
 
+# Prerequisites
+
+- **Python 3.x**
+- **QtDesigner**
+  
+
 # Setup Instructions
 
 ## Setting Up OAuth Client ID in Google Cloud Console
