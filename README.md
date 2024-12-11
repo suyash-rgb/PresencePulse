@@ -3,6 +3,9 @@
 
 ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/7546e56fd96b26c27631b5953fbf2097e517c7eb/Images/photo_2024-12-11_11-28-26.jpg)
 
+# Project Description
+
+**PresencePulse** is an innovative face recognition-based automated attendance system designed to streamline the process of attendance tracking in educational institutions and workplaces. Using cutting-edge face recognition technology, PresencePulse aims to enhance accuracy and efficiency in recording attendance.
 
 Structure of the PresencePulse GUI Application: <br> <br>
 
