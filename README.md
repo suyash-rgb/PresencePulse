@@ -108,7 +108,7 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
   ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/85b4eadd4c0b5832359b3f8999787a0566c91847/Images/Figure_3.png)
   ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/85b4eadd4c0b5832359b3f8999787a0566c91847/Images/Figure_4.png)
   - Fetch attendance trend data and plot a line chart. <br>
-  ![Alt Text]()
+  ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/bc6d2908d21453a118f5c52649046cdd76b9d06d/Images/Figure_5.png)
 
 ### 6. **Recording Attendance and Automated Mailing (GAS)**
 
