@@ -118,6 +118,22 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
   - A reminder for follow-up actions, if applicable.
 
 
+### 7. Attendance Calculation and Automated Mailing (GAS)
+
+- **Description**: This Google Apps Script automates attendance calculation and notification processes at the end of each month.
+
+- **Monthly Trigger Creation**:  
+  - The script sets up a trigger that runs automatically on the last day of each month at 9 AM.  
+  - This trigger initiates the attendance calculation and notification process. 
+- **Calculate Attendance and Notify**:  
+    - Computes the attendance percentage for each student in the "Attendance" sheet.  
+    - If a student's attendance falls below 75%, their details are added to a notification list.  
+- **Notify Short Attendance**:  
+    - Sends an email to students (and their guardians) with attendance below the required threshold.  
+    - The email includes:  
+      - A notification about their short attendance.  
+      - Encouragement to attend future sessions regularly.
+
 
 
 # Contributing
