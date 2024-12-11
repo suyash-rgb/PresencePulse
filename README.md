@@ -150,7 +150,7 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
 - **Most and Least Attentive Students**:  
   - **Top 5 Students**:  
     - Retrieves the top five students with the highest attendance percentages. <br>
-    ![Alt Text]()
+    ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/a103a6590fecac4c51d0e953e030809ab55f9170/Images/api2.png)
   - **Bottom 5 Students**:  
     - Retrieves the bottom five students with the lowest attendance percentages. <br>
     ![Alt Text]()
