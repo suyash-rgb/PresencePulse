@@ -105,8 +105,8 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
   - Fetch monthly attendance overview and plot a bar graph. <br>
   ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/72c2988f10489c63cbb35ffbb23b5491e4442d26/Images/Figure_2.png)
   - Fetch data for the most attentive and least attentive students and plot bar graphs. <br>
-  ![Alt Text]()
-  ![Alt Text]()
+  ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/85b4eadd4c0b5832359b3f8999787a0566c91847/Images/Figure_3.png)
+  ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/85b4eadd4c0b5832359b3f8999787a0566c91847/Images/Figure_4.png)
   - Fetch attendance trend data and plot a line chart. <br>
   ![Alt Text]()
 
