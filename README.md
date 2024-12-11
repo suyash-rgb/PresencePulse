@@ -101,7 +101,7 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
 - **Description**: This script generates visual representations of attendance data using the Matplotlib library. It fetches data from Google Apps Script API and plot various graphs such as bar graphs, pie charts, and line charts to visualize attendance trends.
 - **Main Functions**:
   - Fetch daily attendance data and plot bar and pie charts. <br>
-  ![Alt Text]()
+  ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/7ef8a3ce71121d6ce171a0f7c6ff2157cf5bae89/Images/Figure_1.png)
   - Fetch monthly attendance overview and plot a bar graph. <br>
   ![Alt Text]()
   - Fetch data for the most attentive and least attentive students and plot bar graphs. <br>
