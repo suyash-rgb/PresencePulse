@@ -98,7 +98,7 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
   - Recognize faces using the trained SVM model and mark attendance in Google Sheets.
  
 ### 5. **Data Visualization Script**
-- **Description**: This script generates visual representations of attendance data using the Matplotlib library. It fetches data from Google Apps Script APIs and plot various graphs such as bar graphs, pie charts, and line charts to visualize attendance trends.
+- **Description**: This script generates visual representations of attendance data using the Matplotlib library. It fetches data from Google Apps Script API and plot various graphs such as bar graphs, pie charts, and line charts to visualize attendance trends.
 - **Main Functions**:
   - Fetch daily attendance data and plot bar and pie charts.
   - Fetch monthly attendance overview and plot a bar graph.
