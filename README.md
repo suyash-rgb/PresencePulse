@@ -153,7 +153,7 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
     ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/a103a6590fecac4c51d0e953e030809ab55f9170/Images/api2.png)
   - **Bottom 5 Students**:  
     - Retrieves the bottom five students with the lowest attendance percentages. <br>
-    ![Alt Text]()
+    ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/16791b91b046b78cb74343f885864f7f2115780b/Images/api3.png)
 
 
 
