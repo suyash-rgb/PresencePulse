@@ -69,21 +69,28 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
 
 # Code Summaries
 
-### 1. **Face Embeddings Extraction Script**
+### 1. **Dataset Preparation and Management Script**
+- **Description**: This script manages the creation and organization of the image dataset used for face recognition. It includes functions to download images from Google, add images from local folders, capture images using a camera, and manage student records in Google Sheets.
+- **Main Functions**:
+  - **Add Images from Folder**: Copies images from a local folder to the dataset.
+  - **Capture Images from Camera**: Uses the camera to capture images and save them to the dataset.
+  - **Add Student to Google Sheet**: Adds a new student record to the Google Sheet with the next available roll number.
+
+### 2. **Face Embeddings Extraction Script**
 - **Description**: This script processes images to extract facial embeddings using a pre-trained deep learning model. The extracted embeddings are saved in a pickle file for later use in face recognition tasks.
 - **Main Functions**:
   - Verify and load face detection and embedding models.
   - Process each image to extract face embeddings.
   - Save the embeddings and corresponding names to a pickle file.
 
-### 2. **Training Face Recognition Model Script**
+### 3. **Training Face Recognition Model Script**
 - **Description**: This script trains a Support Vector Machine (SVM) model for face recognition using pre-computed face embeddings. It saves the trained recognizer model and the label encoder for later use.
 - **Main Functions**:
   - Load face embeddings and encode labels.
   - Train an SVM model for face recognition.
   - Save the trained recognizer model and the label encoder to pickle files.
 
-### 3. **Real-Time Face Recognition and Attendance Marking Script**
+### 4. **Real-Time Face Recognition and Attendance Marking Script**
 - **Description**: This script performs real-time face recognition and marks attendance in a Google Sheets document. It uses pre-trained models for face detection and face embedding extraction.
 - **Main Functions**:
   - Initialize and load face detection and embedding models.
