@@ -66,7 +66,8 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
 - **IoT and Device Management**: Connecting IoT devices running in external networks.
 
 
-## Code Summaries
+
+# Code Summaries
 
 ### 1. **Face Embeddings Extraction Script**
 - **Description**: This script processes images to extract facial embeddings using a pre-trained deep learning model. The extracted embeddings are saved in a pickle file for later use in face recognition tasks.
