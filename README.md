@@ -140,7 +140,7 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
 - **Daily, Monthly, and Trends Functions**:  
   - **Calculate Daily Attendance**:  
     - Calculates the attendance percentages for a given date.  <br>
-    ![Alt Text]()
+    ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/13387f462aaef12a4397b3d445ce81a206a63289/Images/api1.png)
   - **Retrieve Monthly Attendance**:  
     - Retrieves the monthly attendance percentages for all students. <br>
     ![Alt Text]()
