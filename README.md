@@ -139,16 +139,21 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
 
 - **Daily, Monthly, and Trends Functions**:  
   - **Calculate Daily Attendance**:  
-    - Calculates the attendance percentages for a given date.  
+    - Calculates the attendance percentages for a given date.  <br>
+    ![Alt Text]()
   - **Retrieve Monthly Attendance**:  
-    - Retrieves the monthly attendance percentages for all students.  
+    - Retrieves the monthly attendance percentages for all students. <br>
+    ![Alt Text]()
   - **Generate Attendance Trends**:  
-    - Creates attendance trends for the current month.
+    - Creates attendance trends for the current month. <br>
+    ![Alt Text]()
 - **Most and Least Attentive Students**:  
   - **Top 5 Students**:  
-    - Retrieves the top five students with the highest attendance percentages.  
+    - Retrieves the top five students with the highest attendance percentages. <br>
+    ![Alt Text]()
   - **Bottom 5 Students**:  
-    - Retrieves the bottom five students with the lowest attendance percentages.
+    - Retrieves the bottom five students with the lowest attendance percentages. <br>
+    ![Alt Text]()
 
 
 
