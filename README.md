@@ -105,7 +105,7 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
   - Fetch data for the most attentive and least attentive students and plot bar graphs.
   - Fetch attendance trend data and plot a line chart.
 
-### 6. Recording Attendance and Automated Mailing (GAS)
+### 6. **Recording Attendance and Automated Mailing (GAS)**
 
 - **Description**: This Google Apps Script (GAS) automates the process of recording attendance and sending personalized emails based on attendance status updates in a Google Sheet.
 
@@ -117,7 +117,7 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
   - Session recording links.  
   - A reminder for follow-up actions, if applicable.
 
-### 7. Attendance Calculation and Automated Mailing (GAS)
+### 7. **Attendance Calculation and Automated Mailing (GAS)**
 
 - **Description**: This Google Apps Script automates attendance calculation and notification processes at the end of each month.
 
@@ -133,7 +133,7 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
       - A notification about their short attendance.  
       - Encouragement to attend future sessions regularly.
 
-## 8. Data Visualization API (GAS)
+### 8. **Data Visualization API (GAS)**
 
 - **Description**: This Google Apps Script provides a comprehensive API for generating attendance data visualizations.
 
