@@ -105,6 +105,20 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
   - Fetch data for the most attentive and least attentive students and plot bar graphs.
   - Fetch attendance trend data and plot a line chart.
 
+### 6. Recording Attendance and Automated Mailing (GAS)
+
+- **Description**: This Google Apps Script (GAS) automates the process of recording attendance and sending personalized emails based on attendance status updates in a Google Sheet.
+
+- **Email Trigger**:  
+  The script automatically triggers when a student's attendance status is updated in the "Attendance" sheet.
+- **Send Email**:  
+  Depending on the attendance status ("Present" or "Absent"), it sends a personalized email with relevant content, such as:  
+  - Notes from the session.  
+  - Session recording links.  
+  - A reminder for follow-up actions, if applicable.
+
+
+
 
 # Contributing
 
