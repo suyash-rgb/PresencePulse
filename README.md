@@ -12,6 +12,41 @@ Structure of the PresencePulse GUI Application: <br> <br>
 ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/1a44656d96c2c7ef4534544058aa45887c14b9c1/Images/PresencePulse%20GUI%20Structure%20and%20Workflow.png)
 
 
+
+# Setup Instructions
+
+## Setting Up OAuth Client ID in Google Cloud Console
+
+1. **Go to Google Cloud Console**: Visit the [Google Cloud Console](https://console.cloud.google.com/) and log in with your Google account.
+
+2. **Create or Select a Project**: On the project selector page, select an existing project or create a new one.
+
+3. **Enable APIs & Services**: In the left sidebar, click on "APIs & Services" and then select "Library".
+
+4. **Enable Google Sheets API**: Search for "Google Sheets API" and enable it.
+
+5. **Create Credentials**: Go to "Credentials" and click on "Create Credentials".
+
+6. **Select OAuth Client ID**: Choose "OAuth client ID" from the options.
+
+7. **Configure Consent Screen**: If prompted, configure the consent screen by providing the necessary information like product name, support email, etc.
+
+8. **Create Client ID**: Choose "Web application" as the application type. Add your ngrok domain to the "Authorized redirect URIs" and "Authorized JavaScript origins". Click "Create" to generate the OAuth client ID. Note down the client ID and client secret.
+
+## Using ngrok to Claim a Static Domain
+
+1. **Sign Up for ngrok**: If you don't have an ngrok account, sign up for one on the [ngrok website](https://ngrok.com/).
+
+2. **Log In to ngrok**: Log in to your ngrok account.
+
+3. **Navigate to Domains**: Go to "Cloud Edge" and select "Domains".
+
+4. **Claim Your Static Domain**: Follow the prompts to claim your unique, static domain.
+
+5. **Use Your Static Domain**: Start ngrok with your static domain using the command:
+   ngrok http --domain=[your-static-domain] 80
+
+
 # Understanding ngrok and ngrok Tunnels
 
 ## What is ngrok?
