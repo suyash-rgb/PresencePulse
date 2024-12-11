@@ -66,6 +66,29 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
 - **IoT and Device Management**: Connecting IoT devices running in external networks.
 
 
+## Code Summaries
+
+### 1. **Face Embeddings Extraction Script**
+- **Description**: This script processes images to extract facial embeddings using a pre-trained deep learning model. The extracted embeddings are saved in a pickle file for later use in face recognition tasks.
+- **Main Functions**:
+  - Verify and load face detection and embedding models.
+  - Process each image to extract face embeddings.
+  - Save the embeddings and corresponding names to a pickle file.
+
+### 2. **Training Face Recognition Model Script**
+- **Description**: This script trains a Support Vector Machine (SVM) model for face recognition using pre-computed face embeddings. It saves the trained recognizer model and the label encoder for later use.
+- **Main Functions**:
+  - Load face embeddings and encode labels.
+  - Train an SVM model for face recognition.
+  - Save the trained recognizer model and the label encoder to pickle files.
+
+### 3. **Real-Time Face Recognition and Attendance Marking Script**
+- **Description**: This script performs real-time face recognition and marks attendance in a Google Sheets document. It uses pre-trained models for face detection and face embedding extraction.
+- **Main Functions**:
+  - Initialize and load face detection and embedding models.
+  - Capture real-time video from the camera, detect faces, and compute embeddings.
+  - Recognize faces using the trained SVM model and mark attendance in Google Sheets.
+
 # Contributing
 
 If you'd like to contribute to this repository, please follow these guidelines:
@@ -75,6 +98,7 @@ If you'd like to contribute to this repository, please follow these guidelines:
 3. **Commit your changes** (e.g., `git commit -m 'Add your feature'`).
 4. **Push to the branch** (e.g., `git push origin feature/your-feature`).
 5. **Open a Pull Request.**
+
 
 # Contact
 
