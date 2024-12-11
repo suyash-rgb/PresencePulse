@@ -44,7 +44,7 @@ Structure of the PresencePulse GUI Application: <br> <br>
 4. **Claim Your Static Domain**: Follow the prompts to claim your unique, static domain.
 
 5. **Use Your Static Domain**: Start ngrok with your static domain using the command: <br>
-   ngrok http --domain=[your-static-domain] 80
+   <span style="background-color: lightgray; padding: 2px;"> ngrok http --domain=[your-static-domain] 80 </span>
 
 
 # Understanding ngrok and ngrok Tunnels
