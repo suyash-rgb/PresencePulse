@@ -70,7 +70,7 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
 # Code Summaries
 
 ### 1. **Dataset Preparation and Management Script**
-- **Description**: This script manages the creation and organization of the image dataset used for face recognition. It includes functions to download images from Google, add images from local folders, capture images using a camera, and manage student records in Google Sheets.
+- **Description**: This script manages the creation and organization of the image dataset used for face recognition. It includes functions add images from local folders, capture images using a camera, and manage student records in Google Sheets.
 - **Main Functions**:
   - **Add Images from Folder**: Copies images from a local folder to the dataset.
   - **Capture Images from Camera**: Uses the camera to capture images and save them to the dataset.
