@@ -84,14 +84,16 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
   - Save the embeddings and corresponding names to a pickle file.
 
 
-## Understanding Face Embeddings and Labels 
+## Understanding Face Embeddings and Labels
 
-### Face Embeddings 
+<div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px;">
+
+### Face Embeddings
 **Definition**:  
-Face embeddings are numerical representations of facial features extracted from images using deep learning models. These embeddings capture the unique` characteristics of a face and are represented as high-dimensional vectors, typically in a 128-dimensional space.
+Face embeddings are numerical representations of facial features extracted from images using deep learning models. These embeddings capture the unique characteristics of a face and are represented as high-dimensional vectors, typically in a 128-dimensional space.
 
 - **Representation**:  
-Face embeddings are usually vectors of numbers (e.g., 128-dimensional vectors) that capture the essential features of a face.
+  Face embeddings are usually vectors of numbers (e.g., 128-dimensional vectors) that capture the essential features of a face.
 
 - **Comparison**:  
   By comparing the embeddings of two faces, you can determine how similar they are. This is useful for tasks like face recognition and verification.
@@ -117,8 +119,6 @@ Labels are the target outcomes that a model aims to predict or classify. In the 
 - **Production**:  
   The 128-dimensional vectors, also known as face embeddings, are produced by passing face images through a pre-trained neural network. Each vector is a compact representation of the face, encoding essential features that distinguish one face from another.
 
- ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/3b191e1a186821373711206559baec49aa092d92/Images/128-dimensional%20vectors%20visualization.png)
- 
 ---
 
 ### Dimensionality Reduction to 2D Scatter Plot
@@ -130,7 +130,9 @@ Dimensionality reduction techniques like Principal Component Analysis (PCA) or t
 - These techniques reduce high-dimensional embeddings to a 2D or 3D space while preserving the relative distances between points.
 
 **Application**:  
-The reduced embeddings can be visualized as scatter plots to explore relationships or clusters among faces. 
+The reduced embeddings can be visualized as scatter plots to explore relationships or clusters among faces.
+
+</div>
 
 A face landmark estimation algorithm will come up with 68 specific points (called landmarks) that exist on every face — the top of the chin, the outside edge of each eye, the inner edge of each eyebrow, etc.
 
