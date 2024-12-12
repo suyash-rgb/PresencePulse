@@ -127,7 +127,10 @@ Dimensionality reduction techniques like Principal Component Analysis (PCA) or t
 - These techniques reduce high-dimensional embeddings to a 2D or 3D space while preserving the relative distances between points.
 
 **Application**:  
-The reduced embeddings can be visualized as scatter plots to explore relationships or clusters among faces.
+The reduced embeddings can be visualized as scatter plots to explore relationships or clusters among faces. 
+
+A face landmark estimation algorithm will come up with 68 specific points (called landmarks) that exist on every face — the top of the chin, the outside edge of each eye, the inner edge of each eyebrow, etc.
+
 
 
 ### 3. **Training Face Recognition Model Script**
