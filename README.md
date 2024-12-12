@@ -82,7 +82,8 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
   - Verify and load face detection and embedding models.
   - Process each image to extract face embeddings.
   - Save the embeddings and corresponding names to a pickle file.
- 
+
+`
 ## Understanding Face Embeddings and Labels
 
 ### Face Embeddings
@@ -135,7 +136,7 @@ A face landmark estimation algorithm will come up with 68 specific points (calle
 
  ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/b8e74ed9efd86d7857a423f51be3df76f7f83650/Images/facial_landmarks.png)
 
-
+`
 
 ### 3. **Training Face Recognition Model Script**
 - **Description**: This script trains a Support Vector Machine (SVM) model for face recognition using pre-computed face embeddings. It saves the trained recognizer model and the label encoder for later use.
