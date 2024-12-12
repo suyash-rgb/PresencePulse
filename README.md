@@ -146,7 +146,7 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
   - Initialize and load face detection and embedding models.
   - Capture real-time video from the camera, detect faces, and compute embeddings.
   - Recognize faces using the trained SVM model and mark attendance in Google Sheets. <br>
-   ![Alt Text]()
+   ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/ea8a4c3291ded254c606ab549b2cb2841fcb9c39/Images/recognition.png)
  
 ### 5. **Data Visualization Script**
 - **Description**: This script generates visual representations of attendance data using the Matplotlib library. It fetches data from Google Apps Script API and plot various graphs such as bar graphs, pie charts, and line charts to visualize attendance trends.
