@@ -84,14 +84,14 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
   - Save the embeddings and corresponding names to a pickle file.
 
 
-` ## Understanding Face Embeddings and Labels `
+## Understanding Face Embeddings and Labels 
 
-` ### Face Embeddings `
-` **Definition**:  `
-`Face embeddings are numerical representations of facial features extracted from images using deep learning models. These embeddings capture the unique` `characteristics of a face and are represented as high-dimensional vectors, typically in a 128-dimensional space.`
+### Face Embeddings 
+**Definition**:  
+Face embeddings are numerical representations of facial features extracted from images using deep learning models. These embeddings capture the unique` characteristics of a face and are represented as high-dimensional vectors, typically in a 128-dimensional space.
 
-` - **Representation**:  `
-`Face embeddings are usually vectors of numbers (e.g., 128-dimensional vectors) that capture the essential features of a face.`
+- **Representation**:  
+Face embeddings are usually vectors of numbers (e.g., 128-dimensional vectors) that capture the essential features of a face.
 
 - **Comparison**:  
   By comparing the embeddings of two faces, you can determine how similar they are. This is useful for tasks like face recognition and verification.
