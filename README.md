@@ -116,6 +116,8 @@ Labels are the target outcomes that a model aims to predict or classify. In the 
 - **Production**:  
   The 128-dimensional vectors, also known as face embeddings, are produced by passing face images through a pre-trained neural network. Each vector is a compact representation of the face, encoding essential features that distinguish one face from another.
 
+ ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/3b191e1a186821373711206559baec49aa092d92/Images/128-dimensional%20vectors%20visualization.png)
+ 
 ---
 
 ### Dimensionality Reduction to 2D Scatter Plot
