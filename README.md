@@ -84,7 +84,7 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
   - Save the embeddings and corresponding names to a pickle file.
 
 
-## Understanding Face Embeddings and Labels
+> ### Understanding Face Embeddings and Labels
 
 > ### Face Embeddings
 > **Definition**:  
@@ -103,34 +103,30 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
 > - Social media tagging
 
 
-### Labels
-**Definition**:  
-Labels are the target outcomes that a model aims to predict or classify. In the context of face recognition, labels correspond to the identities of individuals whose images are being used.
+>### Labels
+> **Definition**:  
+> Labels are the target outcomes that a model aims to predict or classify. In the context of face recognition, labels correspond to the identities of individuals > whose images are being used.
 
-- **Example**:  
-  Each face image of a person is assigned a label representing that person's name or identity.
+> - **Example**:  
+>  Each face image of a person is assigned a label representing that person's name or identity.
 
----
+> ### 128-Dimensional Vectors
+> - **Production**:  
+>  The 128-dimensional vectors, also known as face embeddings, are produced by passing face images through a pre-trained neural network. Each vector is a compact > representation of the face, encoding essential features that distinguish one face from another.
 
-### 128-Dimensional Vectors
-- **Production**:  
-  The 128-dimensional vectors, also known as face embeddings, are produced by passing face images through a pre-trained neural network. Each vector is a compact representation of the face, encoding essential features that distinguish one face from another.
+> ### Dimensionality Reduction to 2D Scatter Plot
+> **Challenge**:  
+> Visualizing 128-dimensional vectors directly is difficult due to the high dimensionality.
 
----
+> **Solution**:  
+> Dimensionality reduction techniques like Principal Component Analysis (PCA) or t-Distributed Stochastic Neighbor Embedding (t-SNE) are used.  
+> - These techniques reduce high-dimensional embeddings to a 2D or 3D space while preserving the relative distances between points.
 
-### Dimensionality Reduction to 2D Scatter Plot
-**Challenge**:  
-Visualizing 128-dimensional vectors directly is difficult due to the high dimensionality.
-
-**Solution**:  
-Dimensionality reduction techniques like Principal Component Analysis (PCA) or t-Distributed Stochastic Neighbor Embedding (t-SNE) are used.  
-- These techniques reduce high-dimensional embeddings to a 2D or 3D space while preserving the relative distances between points.
-
-**Application**:  
-The reduced embeddings can be visualized as scatter plots to explore relationships or clusters among faces.
+> **Application**:  
+> The reduced embeddings can be visualized as scatter plots to explore relationships or clusters among faces.
 
 
-A face landmark estimation algorithm will come up with 68 specific points (called landmarks) that exist on every face — the top of the chin, the outside edge of each eye, the inner edge of each eyebrow, etc.
+> A face landmark estimation algorithm will come up with 68 specific points (called landmarks) that exist on every face — the top of the chin, the outside edge of > each eye, the inner edge of each eyebrow, etc.
 
  ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/b8e74ed9efd86d7857a423f51be3df76f7f83650/Images/facial_landmarks.png)
 
