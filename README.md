@@ -113,7 +113,7 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
 > ### 128-Dimensional Vectors
 > - **Production**:  
 >  The 128-dimensional vectors, also known as face embeddings, are produced by passing face images through a pre-trained neural network. Each vector is a compact > representation of the face, encoding essential features that distinguish one face from another.
-![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/b8e74ed9efd86d7857a423f51be3df76f7f83650/Images/facial_landmarks.png)
+![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/d70d0da4f557cb9b4ac24d28041dcc33d5e51848/Images/128-dimensional%20vectors%20visualization.png)
 
 > ### Dimensionality Reduction to 2D Scatter Plot
 > **Challenge**:  
