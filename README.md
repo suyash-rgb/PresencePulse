@@ -133,6 +133,8 @@ The reduced embeddings can be visualized as scatter plots to explore relationshi
 
 A face landmark estimation algorithm will come up with 68 specific points (called landmarks) that exist on every face — the top of the chin, the outside edge of each eye, the inner edge of each eyebrow, etc.
 
+ ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/b8e74ed9efd86d7857a423f51be3df76f7f83650/Images/facial_landmarks.png)
+
 
 
 ### 3. **Training Face Recognition Model Script**
