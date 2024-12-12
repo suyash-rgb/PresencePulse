@@ -86,8 +86,6 @@ An ngrok tunnel is a secure, encrypted connection created by ngrok that allows e
 
 ## Understanding Face Embeddings and Labels
 
-<div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px;">
-
 ### Face Embeddings
 **Definition**:  
 Face embeddings are numerical representations of facial features extracted from images using deep learning models. These embeddings capture the unique characteristics of a face and are represented as high-dimensional vectors, typically in a 128-dimensional space.
@@ -132,13 +130,12 @@ Dimensionality reduction techniques like Principal Component Analysis (PCA) or t
 **Application**:  
 The reduced embeddings can be visualized as scatter plots to explore relationships or clusters among faces.
 
-</div>
 
 A face landmark estimation algorithm will come up with 68 specific points (called landmarks) that exist on every face — the top of the chin, the outside edge of each eye, the inner edge of each eyebrow, etc.
 
  ![Alt Text](https://github.com/suyash-rgb/PresencePulse/blob/b8e74ed9efd86d7857a423f51be3df76f7f83650/Images/facial_landmarks.png)
 
-`
+
 
 ### 3. **Training Face Recognition Model Script**
 - **Description**: This script trains a Support Vector Machine (SVM) model for face recognition using pre-computed face embeddings. It saves the trained recognizer model and the label encoder for later use.
